@@ -1,0 +1,77 @@
+/* Container for the Table */
+.customer-table {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.card-body {
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.alert {
+  margin-bottom: 20px;
+}
+
+/* Table Styles */
+.rs-table {
+  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.rs-table thead th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.rs-table tbody tr {
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.rs-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.rs-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Alternate row colors */
+.rs-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .rs-table {
+    font-size: 0.9rem;
+  }
+
+  .rs-table thead th,
+  .rs-table td {
+    padding: 8px;
+  }
+
+  .rs-table .rs-cell {
+    display: block;
+    text-align: left;
+  }
+
+  .rs-table tbody tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

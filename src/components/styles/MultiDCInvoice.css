@@ -1,0 +1,260 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(45deg, #66ccff, #00aaff);
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+/* Form Styling */
+label {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #66ccff;
+  outline: none;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Export Button Styling */
+.export-btn {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.export-btn:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+}
+
+.export-btn:active {
+  transform: translateY(0);
+}
+
+.export-btn:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+/* Table Styling */
+.rs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.rs-table th, .rs-table td {
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600; /* Bold font for table text */
+  color: #333;
+}
+
+.rs-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.rs-table td {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.rs-table .rs-checkbox {
+  margin: 0 auto;
+}
+
+.rs-table .rs-checkbox input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.table-header {
+  background-color: #f8f9fa;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.table-body {
+  background-color: #ffffff;
+}
+
+.table-footer {
+  background-color: #f1f1f1;
+}
+
+.table-footer p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  text-align: right;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-header {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .export-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .card-header {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .btn, .export-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card-header {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .btn, .export-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .export-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,40 @@
+#Sidenav {
+  width: 260px;
+  height: 100vh;
+  position: relative; 
+  top: 0;
+  left: 0;
+  background: #d6dbdf; 
+  overflow-y: auto; 
+}
+
+#Sidenav hr {
+  border-color: #85929e;
+  border-width: 2px;
+}
+
+#Sidenav p {
+  text-align: center;
+  font-size: medium;
+  margin-top: 100px;
+}
+
+#Sidenav img {
+  width: 100%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #007bff; 
+}

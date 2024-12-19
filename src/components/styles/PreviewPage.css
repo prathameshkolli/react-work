@@ -1,0 +1,60 @@
+/* Invoice.css */
+.invoice-container {
+    margin: 20px;
+}
+
+.invoice-header {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.company-info h3 {
+    color: #800080;
+}
+
+.invoice-info h3,
+.invoice-info h4 {
+    color: green;
+    margin: 0;
+}
+
+.invoice-info p {
+    margin: 0;
+}
+
+#invoicesummarytable {
+    width: 100%;
+    border: 1px solid red;
+}
+
+#invoicesummarytable th{
+    color: red;
+}
+
+#total td{
+    color: red;
+    font-size: 16px;
+}
+
+#previewtable {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#previewtable thead th {
+    border: 1px solid #000;
+}
+
+#previewtable .table tbody td {
+    border: 1px solid #000;
+}
+
+#header-img {
+    height: auto;
+    width: 400px;
+}
+
+#Signature {
+    padding: 50px;
+}
